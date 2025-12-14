@@ -221,7 +221,7 @@ void epilogue_summary() {
         cout << "She recalls a more subdued interaction, viewing him as reliable but unremarkable." << endl;
     }
     
-    if (isRomanticTensionActive) {
+    if (isRomanticTensionActive == true) {
         cout << "\nThe romantic kiss on the billboard sparks a deep connection, influencing future relationships." << endl;
     } 
     else {
